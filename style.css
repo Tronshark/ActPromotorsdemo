@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 body {
-  min-height: 100vh;
+  max-height: 100vh;
   max-width: 1500vw;
   overflow-x: hidden;
 }
@@ -209,7 +209,7 @@ nav ul li {
 .projects {
   background-color: var(--bg-color);
   padding: 32px 0;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .project-pic {
@@ -218,9 +218,10 @@ nav ul li {
 }
 
 .projects-container {
-  display: flex;
+  display: table;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .projects-title {
   text-align: center;
@@ -255,6 +256,7 @@ nav ul li {
   position: relative;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  display: table-cell;
 }
 .project-card:hover {
   background-color: #fff;
@@ -395,10 +397,6 @@ footer {
 
   .project-container {
     width: 17.875rem;
-  }
-
-  .contact-form-container {
-    max-width: 17.75rem;
   }
 }
 #hero {
@@ -734,6 +732,7 @@ header ul.is-sticky li a.active {
 footer {
   background: #333;
   padding: 2rem 0;
+  position: fixed;
 }
 
 footer .flex {
