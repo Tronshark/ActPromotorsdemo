@@ -19,7 +19,7 @@ angular.module('app').controller('homeCtrl', [
     $scope.selectedValue = 'Home'
 
     $scope.save = function () {
-      $http.post('/api/friends', friends)
+      $http.post('/api/friends', Friendsriends)
     }
   }
 ])
