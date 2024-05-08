@@ -6,16 +6,16 @@ angular.module('app', ['ui.router']).config([
     $stateProvider
       .state('Home', {
         url: '/',
-        templateUrl: '/home.html'
+        templateUrl: '/src/home.html'
       })
       .state('Projects', {
-        url: '/Projects.html',
-        templateUrl: '/Projects.html'
+        url: '/src/Projects.html',
+        templateUrl: '/src/Projects.html'
       })
 
       .state('Contact', {
         url: '/Contact.html',
-        templateUrl: '/Contact.html'
+        templateUrl: '/src/Contact.html'
       })
       .state('site1', {
         url: '/assets/Projectdetails/Site-1/site1.html',
