@@ -6,7 +6,7 @@ var myApp = angular.module('app', ['ui.router']).config([
     $stateProvider
       .state('Home', {
         url: '/',
-        templateUrl: '/src/home.html'
+        templateUrl: 'src/home.html'
       })
       .state('Projects', {
         url: '/src/Projects.html',
