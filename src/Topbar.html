@@ -1,16 +1,21 @@
 <nav id="Topbar">
+  <input type="checkbox" id="check" />
+  <label for="check" class="checkbtn">
+    <div id="nav-icon1">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </label>
   <img
     src="assets/images/ACT Promoters Final Logo-min.jpg"
     alt="ACT Promotors"
     loading="lazy"
     id="navlogo"
   />
-  <ul class="nav nav-pills pull-right">
+  <ul class="nav nav-pills">
     <li ui-sref-active="active"><a ui-sref="Home">Home</a></li>
     <li ui-sref-active="active"><a ui-sref="Projects">Projects</a></li>
     <li ui-sref-active="active"><a ui-sref="Contact">Contact</a></li>
   </ul>
-  <button class="burger-menu" id="burger-menu">
-    <ion-icon class="bars" name="menu-outline"></ion-icon>
-  </button>
 </nav>

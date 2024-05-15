@@ -23,3 +23,8 @@ angular.module('app').controller('homeCtrl', [
     }
   }
 ])
+$(document).ready(function () {
+  $('#nav-icon1').click(function () {
+    $(this).toggleClass('open')
+  })
+})
