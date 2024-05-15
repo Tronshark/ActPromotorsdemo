@@ -14,7 +14,7 @@ var myApp = angular.module('app', ['ui.router']).config([
       })
 
       .state('Contact', {
-        url: '/Contact.html',
+        url: 'src/Contact.html',
         templateUrl: '/src/Contact.html'
       })
       .state('site1', {
