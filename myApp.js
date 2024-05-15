@@ -10,7 +10,7 @@ var myApp = angular.module('app', ['ui.router']).config([
       })
       .state('Projects', {
         url: '/src/Projects.html',
-        templateUrl: '/src/Projects.html'
+        templateUrl: 'src/Projects.html'
       })
 
       .state('Contact', {
